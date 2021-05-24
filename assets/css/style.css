@@ -1,0 +1,57 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    }
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.linea-divisoria {
+
+    border-bottom: 1px solid #dee2e6;
+    border-bottom-width: 2px ;
+    border-bottom-style: solid ;
+    border-bottom-color: #17a2b8;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.fondo-negro {
+    background-color: black;
+}
+
+.section-margin-top {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.div-padding-sides {
+    padding: 0 5rem;
+}
+
+.div-padding-quienes {
+    padding: 0 4rem;
+}
+
+.color-boton {
+    color: white;
+}
+
+.color-boton:hover {
+    color: white;
+}
+
+@media (max-width: 576px){
+    .oculto {
+        display: none;
+    }
+
+    .section-margin-top {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .div-padding-sides {
+        padding: 0 3rem;
+    }
+}
